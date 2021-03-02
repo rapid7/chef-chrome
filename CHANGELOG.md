@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.3 2021-03-02
+
+- Releasing fork with ability to set action
+
 ## 4.0.2 2017-06-15
 
 - Adding the chefignore to make our internal chef-guard happy
