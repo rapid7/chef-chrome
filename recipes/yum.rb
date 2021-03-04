@@ -6,5 +6,5 @@ yum_repository 'google-chrome' do
 end.run_action(:add)
 
 package "google-chrome-#{node['chrome']['track']}" do
-  action :nothing
-end.run_action(node['chrome']['action'])
+  action node['chrome']['action'].to_sym
+end
