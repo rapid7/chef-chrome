@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.4 2021-03-04
+
+- Fix bug in code and allow setting action from json by converting to symbol
+
 ## 4.0.3 2021-03-02
 
 - Releasing fork with ability to set action
